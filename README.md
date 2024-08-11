@@ -1,5 +1,5 @@
 # Case Studies and Machine Learning Models
-This repository contains Jupyter Notebooks and machine learning models for various case studies in data analysis and predictive modeling.
+This repository contains the code and analyses for three machine learning case studies, developed as part of a group assignment. The work was collaboratively completed by three team members, utilising Python Jupyter Notebooks.
 
 ## Folders
 - [**Case Study 1**](https://github.com/serena-ds/data-exploration-and-mining/tree/main/Case%20Study%201) folder: Association mining on online retail data to discover common purchase patterns.
