@@ -2,7 +2,7 @@
 This repository contains Jupyter Notebooks and machine learning models for various case studies in data analysis and predictive modeling.
 
 ## Folders
-- **Case Study 1** folder: Association mining on online retail data to discover common purchase patterns.
+- [**Case Study 1**](https://github.com/serena-ds/data-exploration-and-mining/tree/main/Case%20Study%201) folder: Association mining on online retail data to discover common purchase patterns.
 - **Case Study 2** folder: Clustering diabetic patient encounters to identify useful patient clusters.
 - **Case Study 3** folder: Three machine learning models for predicting diabetic patient readmission.
 
