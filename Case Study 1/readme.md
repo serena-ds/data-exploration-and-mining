@@ -37,5 +37,7 @@ Firstly, it helps to identify what type of products should be advertised togethe
 Secondly, it helps the store manager make pricing decisions. For instance, rule 164 suggests that customers who buy LUNCH BAG RED RETROSPOT and JUMBO BAG PINK POLKADOT are at 77% chances of buying JUMBO BAG RED RETROSPOT. This means that the manager is able to mark JUMBO BAG RED RETROSPOT at a higher price to increase in profit.
 Moreover, it can help the store manager in targeting the right customers when they send advertising emails. For itemsets that have negative correlation, the store manager can avoid sending customers irrelevant information on the products that they do not want. Instead, we can focus on the products that are likely to be bought together and suggest them when the customer is checking out.
 
+Finally, it provides further insights into marketing campaigns focusing on long-term customers. Unlike the traditional retailed shopping making use of the displayed products on store’s shelves, after a specific period of time since a customer bought the left-hand-side items in the sequential rules, a recommendation email about the right-hand-side items in the same rules should appear in the inbox of that customer. Another application of sequential mining is about direct advertisement on the customer’s home page once they logged in.
+
 ## Conclusion
 The analysis reveals valuable patterns in customer purchasing behavior, which can be leveraged for improved decision-making in marketing and sales strategies.
