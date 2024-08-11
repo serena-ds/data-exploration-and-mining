@@ -3,8 +3,8 @@ This repository contains the code and analyses for three machine learning case s
 
 ## Folders
 - [**Case Study 1**](https://github.com/serena-ds/data-exploration-and-mining/tree/main/Case%20Study%201) folder: Association mining on online retail data to discover common purchase patterns.
-- **Case Study 2** folder: Clustering diabetic patient encounters to identify useful patient clusters.
-- **Case Study 3** folder: Three machine learning models for predicting diabetic patient readmission.
+- [**Case Study 2**](https://github.com/serena-ds/data-exploration-and-mining/tree/main/Case%20Study%202) folder: Clustering diabetic patient encounters to identify useful patient clusters.
+- [**Case Study 3**](https://github.com/serena-ds/data-exploration-and-mining/tree/main/Case%20Study%203) folder: Three machine learning models for predicting diabetic patient readmission.
 
 ## Case Study 1: Association Mining
 ### Objective: 
