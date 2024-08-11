@@ -9,13 +9,13 @@ This project involves association mining on a European online retail dataset to 
 
 ## Pre-processing
 ### Data Type Adjustments:
-- Converted InvoiceNo and CustomerID to categorical.
-- Converted InvoiceDate to datetime.
+- Converted `InvoiceNo` and `CustomerID` to categorical.
+- Converted `InvoiceDate` to `datetime`.
 ### Missing Data:
 - Removed rows with missing descriptions.
-- Retained missing CustomerID entries to account for guest checkouts.
+- Retained missing `CustomerID` entries to account for guest checkouts.
 ### Outlier Handling:
-- Excluded rows with Quantity as "0" or extreme outliers.
+- Excluded rows with `Quantity` as "0" or extreme outliers.
   
 ## Analysis
 ### Association Mining
@@ -26,7 +26,7 @@ This project involves association mining on a European online retail dataset to 
 + Strong association rules identified between items like LUNCH BAG BLACK SKULL and JUMBO BAG RED RETROSPOT.
 + Frequent co-purchases with JUMBO BAG PINK POLKADOT include JUMBO BAG RED RETROSPOT and LUNCH BAG RED RETROSPOT.
 ### Sequence Analysis
-- Conducted using InvoiceDate to identify transaction sequences.
+- Conducted using `InvoiceDate` to identify transaction sequences.
 - Set thresholds: min_support at 2% and min_confidence at 10%.
   
 ## Insights
