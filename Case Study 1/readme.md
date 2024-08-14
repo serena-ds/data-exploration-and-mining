@@ -2,7 +2,7 @@
 ## Project Overview
 This project involves association mining on a European online retail dataset to identify common purchase patterns. The results are intended to guide marketing, promotional strategies, and inventory management.
 
-Python Libraries Used: **Numpy**, **Pandas**, **Matplotlib**, **Seaborn**
+Python Libraries Used: **pandas**, **numpy**, **matplotlib**, **seaborn**
 
 ## Dataset
 - File: `D1.csv`
