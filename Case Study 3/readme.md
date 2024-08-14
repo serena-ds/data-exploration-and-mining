@@ -1,5 +1,5 @@
 # Case Study 3: Predicting Diabetic Patient Encounter Outcomes
-Python Libraries Used: **Numpy**, **Pandas**, **sklearn**
+Python Libraries Used: **pandas**, **numpy**, **scikit-learn**
 
 ## 1. Decision Tree Model
 ### Data Pre-processing
