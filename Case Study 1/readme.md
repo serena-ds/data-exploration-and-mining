@@ -2,6 +2,8 @@
 ## Project Overview
 This project involves association mining on a European online retail dataset to identify common purchase patterns. The results are intended to guide marketing, promotional strategies, and inventory management.
 
+Python Libraries Used: **Numpy**, **Pandas**, **Matplotlib**, **Seaborn**
+
 ## Dataset
 - File: `D1.csv`
 - Records: 19,663 transactions
@@ -19,10 +21,10 @@ This project involves association mining on a European online retail dataset to 
   
 ## Analysis
 ### Association Mining
-- Parameters:
+1. Parameters:
 + min_support: 0.02
 + min_confidence: 0.2
-- Key Findings:
+2. Key Findings:
 + Strong association rules identified between items like LUNCH BAG BLACK SKULL and JUMBO BAG RED RETROSPOT.
 + Frequent co-purchases with JUMBO BAG PINK POLKADOT include JUMBO BAG RED RETROSPOT and LUNCH BAG RED RETROSPOT.
 ### Sequence Analysis
@@ -31,13 +33,9 @@ This project involves association mining on a European online retail dataset to 
   
 ## Insights
 The information generated from this association task can assist the retail store manager in many advertising and marketing decisions.
-
-Firstly, it helps to identify what type of products should be advertised together. For example, rule 46 and 160 (in task 4) suggest that JUMBO BAG PINK POLKADOT is likely to be bought together with either LUNCH BAG BLACK SKULL. or with a set of LUNCH BAG RED RETROSPOT and JUMBO BAG RED RETROSPOT, however not very often. Therefore, they could run a promotion for these combos in order to encourage customers to buy more.
-
-Secondly, it helps the store manager make pricing decisions. For instance, rule 164 suggests that customers who buy LUNCH BAG RED RETROSPOT and JUMBO BAG PINK POLKADOT are at 77% chances of buying JUMBO BAG RED RETROSPOT. This means that the manager is able to mark JUMBO BAG RED RETROSPOT at a higher price to increase in profit.
-Moreover, it can help the store manager in targeting the right customers when they send advertising emails. For itemsets that have negative correlation, the store manager can avoid sending customers irrelevant information on the products that they do not want. Instead, we can focus on the products that are likely to be bought together and suggest them when the customer is checking out.
-
-Finally, it provides further insights into marketing campaigns focusing on long-term customers. Unlike the traditional retailed shopping making use of the displayed products on store’s shelves, after a specific period of time since a customer bought the left-hand-side items in the sequential rules, a recommendation email about the right-hand-side items in the same rules should appear in the inbox of that customer. Another application of sequential mining is about direct advertisement on the customer’s home page once they logged in.
+- **Product Advertising**: Identify and promote products likely to be bought together. For example, rule 46 and 160 (in task 4) suggest that JUMBO BAG PINK POLKADOT is likely to be bought together with either LUNCH BAG BLACK SKULL. or with a set of LUNCH BAG RED RETROSPOT and JUMBO BAG RED RETROSPOT, however not very often. Therefore, they could run a promotion for these combos in order to encourage customers to buy more.
+- **Pricing Decision**: Helps the store manager make pricing decisions based on purchase patterns. For instance, rule 164 suggests that customers who buy LUNCH BAG RED RETROSPOT and JUMBO BAG PINK POLKADOT are at 77% chances of buying JUMBO BAG RED RETROSPOT. This means that the manager is able to mark JUMBO BAG RED RETROSPOT at a higher price to increase in profit.
+- **Targeted Marketing**: Avoid irrelevant product promotions by focusing on items with positive purchase correlations. For itemsets that have negative correlation, the store manager can avoid sending customers irrelevant information on the products that they do not want.
 
 ## Conclusion
 The analysis reveals valuable patterns in customer purchasing behavior, which can be leveraged for improved decision-making in marketing and sales strategies.
