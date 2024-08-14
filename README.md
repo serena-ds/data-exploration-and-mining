@@ -1,6 +1,8 @@
 # Case Studies and Machine Learning Models
 This repository contains the code and analyses for three machine learning case studies, developed as part of a group assignment. The work was collaboratively completed by three team members, utilising Python Jupyter Notebooks.
 
+Python Libraries Used: **pandas**, **numpy**, **matplotlib**, **seaborn**, **scikit-learn**
+
 ## Folders
 - [**Case Study 1**](https://github.com/serena-ds/data-exploration-and-mining/tree/main/Case%20Study%201) folder: Association mining on online retail data to discover common purchase patterns.
 - [**Case Study 2**](https://github.com/serena-ds/data-exploration-and-mining/tree/main/Case%20Study%202) folder: Clustering diabetic patient encounters to identify useful patient clusters.
