@@ -1,7 +1,7 @@
 # Case Study 2: Clustering Diabetic Patient Encounters
 This study clusters diabetic patients based on their hospital data to identify patterns and aid in healthcare management.
 
-Python Libraries Used: **Numpy**, **Pandas**, **Matplotlib**, **Seaborn**
+Python Libraries Used: **pandas**, **numpy**, **matplotlib**, **seaborn**
 
 ## Dataset
 - File: `D2.csv`
